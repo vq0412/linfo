@@ -186,16 +186,15 @@ class Html implements Output
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>'.$appName.' - '.$info['HostName'].'</title>
 	<link href="./layout/favicon.ico" type="image/x-icon" rel="shortcut icon">
-	<link id="themeCssLink" href="./layout/theme_'.$chosen_theme.'.css" rel="stylesheet">'.($show_icons ? '
+    <!--
+    <link id="themeCssLink" href="./layout/theme_'.$chosen_theme.'.css" rel="stylesheet">'.($show_icons ? '
 	<link href="./layout/icons.css" rel="stylesheet">' : ''
     ).'
 	<script src="./layout/scripts.min.js"></script>
 	<meta name="generator" content="'.$appName.' ('.$version.')">
 	<meta name="author" content="Joseph Gillotti &amp; friends">
-	<!--[if lt IE 8]>
-	<link href="./layout/old_ie.css" type="text/css" rel="stylesheet">
-	<![endif]-->
 	<link rel="stylesheet" type="text/css" href="./layout/mobile.css" media="screen and (max-width: 640px)">
+    -->
 </head>
 <body id="info">
 <div id="header">';
